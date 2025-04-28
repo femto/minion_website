@@ -10,7 +10,17 @@
     "exclude": ["/images/*.{png,jpg,gif,svg}", "/css/*", "/js/*"]
   },
   "mimeTypes": {
-    ".json": "text/json"
+    ".json": "text/json",
+    ".css": "text/css",
+    ".js": "application/javascript",
+    ".svg": "image/svg+xml",
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".gif": "image/gif",
+    ".ico": "image/x-icon",
+    ".ttf": "font/ttf",
+    ".woff": "font/woff",
+    ".woff2": "font/woff2"
   },
   "globalHeaders": {
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
