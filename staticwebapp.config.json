@@ -1,6 +1,24 @@
 {
   "routes": [
     {
+      "route": "/css/*",
+      "headers": {
+        "content-type": "text/css"
+      }
+    },
+    {
+      "route": "/js/*",
+      "headers": {
+        "content-type": "application/javascript"
+      }
+    },
+    {
+      "route": "/images/*",
+      "headers": {
+        "cache-control": "public, max-age=604800"
+      }
+    },
+    {
       "route": "/*",
       "rewrite": "/index.html"
     }
@@ -25,6 +43,7 @@
   "globalHeaders": {
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
     "X-Frame-Options": "DENY",
-    "X-Content-Type-Options": "nosniff"
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache"
   }
 } 
