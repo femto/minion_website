@@ -52,4 +52,10 @@ This project is open source and available under the MIT License.
 
 ## Contact
 
-For more information about the Minion AGI Framework, visit [GitHub](https://github.com/femto/minion). 
+For more information about the Minion AGI Framework, visit [GitHub](https://github.com/femto/minion).
+
+## bug
+deploy to https://polite-bay-0ea7a9500.6.azurestaticapps.net/
+CNAME www.nebulame.com to https://polite-bay-0ea7a9500.6.azurestaticapps.net/
+/Users/femtozheng/web-project/minion_website/staticwebapp.config.json
+rewrites everything to /index.html
